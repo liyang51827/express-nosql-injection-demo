@@ -1,0 +1,31 @@
+{
+  "name": "express-nosql-injection-demo",
+  "version": "1.0.0",
+  "description": "Technical Demo for Testing NoSQL Injection on Express MongoDB Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Security",
+    "MongoDB",
+    "Express",
+    "Node.js",
+    "NoSQL",
+    "Injection",
+    "Attack",
+    "Vulnerability"
+  ],
+  "author": "Yang Li",
+  "email": "liyang51827@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "mongoose": "^6.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
